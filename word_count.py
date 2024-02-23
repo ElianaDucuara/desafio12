@@ -6,7 +6,7 @@ def contar_caracteres_distintos(texto):
 
 # Función para contar palabras distintas
 def contar_palabras_distintas(texto):
-    palabras = texto.split()
+    palabras = texto.split(' ')
     return len(set(palabras))
     #return palabras
 
